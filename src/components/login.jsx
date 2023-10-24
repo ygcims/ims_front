@@ -53,6 +53,15 @@ function Login() {
         <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
           <div className="bg-white shadow w-full rounded-lg divide-y divide-gray-200">
             <div className="px-5 py-7">
+            <center>
+            <img
+                className="text-center h-20 pt-1 pb-1 w-auto"
+                src="/images/logo.png"
+                alt="Your Company"
+                style={{marginBottom:"10px"}}
+              />
+            </center>
+            
               <h1 className="font-bold text-center text-2xl mb-5">Sign in</h1>
               <label className="font-semibold text-sm text-gray-600 pb-1 block">
                 E-mail
